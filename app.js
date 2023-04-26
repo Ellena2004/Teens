@@ -9,7 +9,7 @@ app.get("/", function(req, res){
     res.sendFile(path.join(__dirname+'/index.html'));
 });
 
-app.get("/index", function(req, res){
+app.get("/home", function(req, res){
     res.sendFile(path.join(__dirname+'/index.html'));
 });
 
@@ -41,7 +41,7 @@ app.get("/gallery", function(req, res){
     res.sendFile(path.join(__dirname+'/gallery.html'));
 });
 
-app.get("/Program", function(req, res){
+app.get("/Programs", function(req, res){
     res.sendFile(path.join(__dirname+'/programs.html'));
 });
 
